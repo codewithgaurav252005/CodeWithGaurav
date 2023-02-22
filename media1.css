@@ -1,0 +1,147 @@
+@media only screen and (max-width: 300px) {
+    body {
+        width: 113%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .sec-1 {
+        flex-wrap: nowrap;
+        padding: 20px;
+    }
+    .navRight i {
+        font-size: 35px;
+        position: relative;
+        top: 22px;
+        left: 0px;
+        padding: 0px 15px;
+    }
+    #changeText {
+        margin: -6px 127px 11px 2px;
+    }
+
+    .sec-1 h1 {
+        margin: 122px 0px 8px;
+        font-size: 63px;
+    }
+
+    .sec-1 p {
+        color: rgb(74 79 92);
+        margin: 5px;
+    }
+
+    #modal {
+        width: 340px;
+        margin: 79px -1px;
+    }
+
+    .sec-1 .btn {
+        margin: 8px -63px 7px -91px;
+        padding: 21px;
+        font-size: 18px;
+        background-color: rgb(102 116 204);
+        border-radius: 13px;
+        border: 2px solid rgb(102 116 204);
+        cursor: pointer;
+        color: white;
+    }
+
+    .sec-1 .noncolour {
+        background-color: white;
+        color: black;
+        margin: 8px 78px;
+    }
+
+    #computerImg {
+        position: absolute;
+        right: 140px;
+        width: 111px;
+        top: 115px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        width: 151%;
+    }
+
+    .navRight i {
+        font-size: 35px;
+        position: relative;
+        top: 22px;
+        left: 14px;
+    }
+
+    #computerImg {
+        position: absolute;
+        left: 897px;
+        width: 111px;
+        top: 115px;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .mode {
+        /* display: block; */
+    }
+
+    .mode i {
+        padding: 12px;
+        top: 12px;
+    }
+
+    body {
+        width: 132%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .navMid {
+        display: none;
+    }
+
+    .navRight .btn {
+        display: none;
+    }
+
+    .sec-1 img {
+        display: none;
+    }
+
+    #changeText {
+        margin: -3px 20px 14px 7px;
+    }
+
+    .text {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .utube {
+        padding: 0px 22px;
+    }
+
+    .l-3 {
+        display: none;
+    }
+
+    .line {
+        margin: 42px 29px;
+    }
+
+    .sec-5 {
+        padding: 35px;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    body {
+        width: 167%;
+    }
+}

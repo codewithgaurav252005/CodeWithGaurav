@@ -1,0 +1,804 @@
+body {
+    /* background-color: #6674cc; */
+    font-family: Rubik, sans-serif;
+    /* background-color: rgb(13, 15, 48); */
+    /* color: white; */
+
+}
+
+nav {
+    position: fixed;
+    background-color: rgb(159 117 117 / 14%);
+    backdrop-filter: blur(8px);
+    width: 100%;
+    padding: -1px;
+    margin: -20px 0px 0px -8px;
+    box-shadow: 0px 5px 5px 5px rgb(0 0 0 / 20%);
+    display: flex;
+    justify-content: space-around;
+    /* border-radius: 22px; */
+    z-index: 1;
+    /* lower z-index value than images */
+}
+
+.burgerline {
+    width: 41px;
+    height: 0px;
+    background-color: black;
+    display: block;
+    margin: 6px -4px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.close {
+    top: 29%;
+    font-size: 2px;
+    z-index: 1;
+    color: black;
+}
+
+.send-1 {
+    top: 30%;
+    margin: 2px;
+}
+
+.send-2 {
+    top: 37%;
+    margin: 2px;
+}
+
+.send-3 {
+    top: 44%;
+    margin: 2px;
+}
+
+.send-4 {
+    top: 51%;
+    margin: 2px;
+}
+
+.goup {
+    display: none;
+    z-index: 1;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    /* background-color: #806969; */
+    text-align: center;
+    box-shadow: 0px 5px 5px 5px rgb(0 0 0 / 20%);
+    left: 0px;
+    bottom: 0px;
+    padding: 5px;
+    color: black;
+    font-size: 36px;
+}
+
+.close {
+    display: none;
+    position: fixed;
+    top: 29%;
+    font-size: 15px;
+    left: 45px;
+}
+
+.goup :hover {
+    /* background-color:  rgb(102 116 204); */
+    color: rgb(96, 108, 108);
+}
+
+/* .burgerManu{
+    display: none;
+} */
+.burger {
+    padding: 12px;
+    display: none;
+}
+
+i {
+    cursor: pointer;
+}
+
+nav .logo {
+    padding: 0px;
+}
+
+.navMid {
+    display: flex;
+    /* margin: 12px; */
+}
+
+.navMid a {
+    padding: 11px;
+    text-decoration: none;
+    /* color: #000; */
+}
+
+.voice {
+    padding: 12px;
+}
+
+.novoice {
+    display: none;
+
+}
+
+.mode {
+    display: flex;
+
+}
+
+/* .manubar{
+    color: rgb(156, 113, 113);
+}*/
+.navRight {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navRight i {
+    font-size: 35px;
+    position: relative;
+    top: 22px;
+    left: 70px;
+    padding: 0px 15px;
+}
+
+.navRight .btn {
+    padding: 12px;
+}
+
+.lightmode {
+    display: none;
+}
+
+/* Section 1  */
+.sec-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    padding: 60px 0px;
+}
+
+.sec-1 h1 {
+    margin: 124px 99px 20px;
+    font-size: 63px;
+}
+
+.sec-1 p {
+    color: rgb(74 79 92);
+
+}
+
+.samp {
+    font-family: Rubik, sans-serif;
+    color: rgb(102 116 204);
+}
+
+#I {
+    animation: cursor 5s infinite linear;
+}
+
+@keyframes cursor {
+
+    0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    100% {
+        opacity: 1;
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        opacity: 0;
+    }
+}
+
+#changeText {
+    margin: -26px 100px 14px 101px;
+}
+
+#changeText::before {
+    content: "";
+    animation: head 8s infinite linear;
+}
+
+@keyframes head {
+    0% {
+        content: "";
+    }
+
+    6.25% {
+        content: "G";
+    }
+
+    12.5% {
+        content: "Ga";
+    }
+
+    18.75% {
+        content: "Gau";
+    }
+
+    25% {
+        content: "Gaur";
+    }
+
+    31.25% {
+        content: "Gaura";
+    }
+
+    37.25% {
+        content: "Gaurav";
+    }
+
+    43.75% {
+        content: '';
+    }
+
+    50% {
+        content: "S";
+    }
+
+    56.25% {
+        content: "Su";
+    }
+
+    62.5% {
+        content: "Sun";
+    }
+
+    68.75% {
+        content: "Sunt";
+    }
+
+    75% {
+        content: "Sunth";
+    }
+
+    81.75% {
+        content: "Sunthw";
+    }
+
+    88% {
+        content: "Sunthwa";
+    }
+
+    94.25% {
+        content: "Sunthwal";
+    }
+
+    100% {
+        content: "";
+
+    }
+}
+
+.sec-1 img {
+    /* margin: 132px 5px; */
+    padding: 12px;
+}
+
+#computerImg {
+    position: absolute;
+    right: 230px;
+}
+
+.heading {
+    margin: 0px 102px;
+    font-size: 36px;
+}
+
+.btnposi {
+    display: flex;
+    margin: 9px 94px;
+}
+
+.btn {
+    margin: 12px;
+    padding: 22px;
+    font-size: 18px;
+    background-color: rgb(102 116 204);
+    border-radius: 13px;
+    border: 2px solid rgb(102 116 204);
+    cursor: pointer;
+    color: white;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.noncolour {
+    background-color: white;
+    color: black;
+}
+
+.sec-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(102 116 204);
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 12px;
+}
+
+.line {
+    width: 3px;
+    height: 141px;
+    color: white;
+    background: white;
+    margin: 42px 0px;
+}
+
+.sec-2 h1 {
+    color: white;
+}
+
+.sec-2 p {
+    font-size: 23px;
+    color: white;
+}
+
+.sec-3 {
+    text-align: center;
+    padding: 20px;
+    /* height: 200px; */
+}
+
+.blueheading {
+    color: rgb(102 116 204);
+    font-size: 20px;
+}
+
+.mainhading-3 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* position: absolute; */
+    /* margin: 269px 19px; */
+}
+
+.icon img {
+    width: 54px;
+}
+
+.Readmore {
+    position: relative;
+    top: 21%;
+    left: 28%;
+    display: none;
+    font-size: 24px;
+}
+
+.sliderCommentHov:hover {
+    background-color: #ff3850;
+    cursor: pointer;
+}
+
+.sliderCommentHov:hover .Readmore {
+    display: block;
+}
+
+.sliderCommentHov:hover .moreDil {
+    display: none;
+}
+
+.sliderCommentHov:hover .info {
+    display: none;
+}
+
+.allcard {
+    flex-wrap: wrap;
+    margin: 26px 14px;
+    /* background-color: rgb(166 188 188); */
+    box-shadow: 0px 5px 5px 5px rgb(0 0 0 / 20%);
+    width: 322px;
+    height: 207px;
+    padding: 35px;
+    border-radius: 4px;
+}
+
+.mainhading p {
+    font-weight: 700;
+
+}
+
+.cardinfo p {
+    font-size: 16px;
+    padding: 15px;
+    color: rgb(119 124 133);
+    ;
+}
+
+.sec-4 {
+    text-align: center;
+}
+
+.meHeading {
+    display: flex;
+    justify-content: space-around;
+}
+
+.meBTN {
+    width: 160px;
+    padding: 20px;
+}
+
+.myPic {
+    width: 280px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding: 30px 10px;
+}
+
+.aboutMe h1 {
+    margin: -17px 0px;
+}
+
+.work {
+    font-weight: 200;
+    font-size: 28px;
+}
+
+.jobedCompany {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.jobedCompany img {
+    width: 100px;
+    padding: -12px;
+}
+
+.apple img {
+    width: 44px;
+}
+
+.jobedCompany p {
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(119 124 133);
+}
+
+.sec-5 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 73px;
+}
+
+.allcompanygole {
+    width: 364px;
+    height: 364px;
+    border: 2px solid red;
+    border-radius: 50%;
+
+}
+
+.allcompanygole {
+    border: 2px solid black;
+    /* border-radius: 50%; */
+    /* animation: circular-motion 44s linear infinite; */
+}
+
+.allLogo {
+    /* animation: circular-motion-logo 8s linear infinite; */
+}
+
+@keyframes circular-motion {
+    0% {
+        transform: rotate(0deg) translate(0);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(0px);
+    }
+
+}
+
+@keyframes circular-motion-logo {
+    0% {
+        transform: rotate(0deg) translate(0);
+    }
+
+    50% {
+        transform: rotate(0deg) translate(0px);
+    }
+
+    100% {
+        transform: rotate(0deg) translate(0px);
+    }
+
+}
+
+.allLogo {
+    width: 160px;
+    /* height: 60px; */
+    position: relative;
+}
+
+.thelogo-1 {
+    position: relative;
+    right: 43px;
+    bottom: 5px;
+}
+
+.thelogo-2 {
+    position: relative;
+    left: 98px;
+    top: 12px;
+}
+
+.thelogo-3 {
+    position: relative;
+    right: 64px;
+    top: 12px;
+}
+
+.thelogo-4 {
+    position: relative;
+    left: 104px;
+    top: 12px;
+}
+
+.thelogo-5 {
+    position: relative;
+    left: 109px;
+    bottom: 39px;
+}
+
+.thelogo-6 {
+    position: relative;
+    right: 52px;
+    bottom: 409px;
+}
+
+.sec-6 {
+    text-align: center;
+    font-size: 25px;
+}
+
+/* .video{
+    display: flex;
+    flex-wrap: nowrap;
+} */
+.video iframe {
+    width: 400px;
+    height: 250px;
+    padding: 25px;
+}
+
+.sec-7 {
+    text-align: center;
+}
+
+.sec-8 .samp {
+    font-size: 18px;
+}
+
+.headdil {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nextprvBTN {
+    padding: 35px;
+
+}
+
+.nextprvBTN .btn {
+    padding: 1px;
+    border-radius: 30px;
+    margin: 3px;
+    font-size: 20px;
+}
+
+.nextprvBTN i {
+    padding: 12px;
+    margin: 0px 12px;
+}
+
+.back {
+    background-color: white;
+    color: #000;
+}
+
+.slider img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+.sliderComment {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+/* .slider .allcard{
+    display: none;
+} */
+
+.comment .logo {
+    width: 50px;
+    border-radius: 50px;
+    height: 50px;
+    margin: -5px 15px;
+}
+
+.star {
+    display: flex;
+    margin: 1px;
+}
+
+.star i {
+    padding: 5px;
+}
+
+.moreDil {
+    display: flex;
+    justify-content: space-between;
+}
+
+.appName {
+    display: flex;
+}
+
+.appName i {
+    padding: 25px 9px;
+}
+
+.appName a {
+    text-decoration: none;
+}
+
+.appIconAndDIt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 12px;
+}
+
+.appIconAndDIt img {
+    display: block;
+    margin: auto;
+}
+
+.socalApp {
+    padding: 0px 23px;
+}
+
+.sec-9 {
+    text-align: center;
+    padding: 20px;
+}
+
+.sec-9 p {
+    font-size: 20px;
+    color: rgb(119 124 133);
+}
+
+.sec-9 h1 {
+    font-size: 42px;
+}
+
+footer {
+    background-color: rgb(41 52 122);
+    text-align: center;
+    color: white;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 70px;
+    border-radius: 50px;
+}
+
+.up {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mid a {
+    /* padding: 0px 53px; */
+    margin: 12px;
+    color: white;
+    height: 12px;
+
+}
+
+.mid a h5 {
+    margin: 12px;
+}
+
+.mid a:hover {
+    text-decoration: underline;
+}
+
+.down {
+    padding: 12px;
+    margin: 9px 0px;
+}
+
+.mid {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .line {
+    height: 197px;
+    margin: 40px 35px 7px -48px;
+}
+
+.left {
+    margin: 55px 0px;
+}
+
+.right {
+    margin: 80px 0px;
+    text-align: left;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(159 117 117 / 14%);
+    z-index: 2;
+    backdrop-filter: blur(28px);
+}
+
+.lodeico {
+    width: 206px;
+    border-radius: 50%;
+}
+
+/* The End */
+
+/* .jobedCompany p,img{
+    padding: 12px;
+} */
